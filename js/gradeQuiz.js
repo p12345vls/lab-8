@@ -41,13 +41,13 @@ $(document).ready(function(){
         $("#question2-feedback").append("The answer is <strong>Monte Rey</strong>" );
         
         //Question 3
-        if(answer3 === "MONTERAY BAY") {   
+        if(answer3 === "MONTEREY BAY") {   
             correctAnswer($("#question3-feedback"));
         } 
         else { 
             incorrectAnswer($("#question3-feedback"));
         }
-         $("#question3-feedback").append("The answer is <strong>Monteray Bay</strong>" );
+         $("#question3-feedback").append("The answer is <strong>Monterey Bay</strong>" );
         
          // Question 4
         if(answer4 === "7500") {   
